@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TAS_AUTO'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TAS_AUTO'
+  }
+}
+define service ZUI_TAS_AUTO_O4 provider contracts odata_v4_ui {
+  expose ZC_TAS_AUTO;
+}
